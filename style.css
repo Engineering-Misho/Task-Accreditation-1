@@ -1,0 +1,152 @@
+z*{
+    margin:0; 
+    padding:0; 
+    box-sizing:border-box;
+}
+body{
+    font-family:Arial, sans-serif;
+}
+.container{
+    width:85%; margin:0 auto;
+}
+.header{
+    min-height:100vh;
+     background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(WhatsApp\ Image\ 2025-10-04\ at\ 00.29.18_bfeabcfe.jpg); background-size:cover;
+     background-position:center;
+}
+.nav{
+    background-color:black; 
+    padding:20px 0;
+}
+.logo{
+    float:left;
+}
+.logo a{
+    color:white; 
+    text-decoration:none; 
+    font-size:30px; text-transform:uppercase;
+}
+.main-nav{
+    float:right;
+}
+.main-nav ul li{
+    display:inline;
+}
+.main-nav ul li a{
+    color:white; 
+    text-decoration:none; 
+    margin-right:15px; 
+    text-transform:uppercase;
+}
+.hero{
+    text-align:center; 
+    margin:100px auto; 
+    color:white;
+}
+.hero h1{
+    font-size:60px; 
+    text-transform:uppercase;
+}
+
+hr{
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    border: 1px solid #61c2f7;
+}
+
+.hero p{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.hero a{
+    border:1px solid #61c2f7; 
+    text-decoration:none;
+    color:white;
+    padding:10px 20px; 
+    
+}
+.design{
+    text-align:center; 
+    padding:30px 0; 
+    background:#eee;
+}
+.icons{
+    padding:50px 0;
+}
+.icon{
+    float:left; 
+    width:30%; 
+    margin-right:3%; 
+    text-align:center;
+}
+.icon i{
+    background:#61c2f7; 
+    color:white; 
+    padding:20px; 
+    font-size:36px; 
+    margin-bottom:15px;
+}
+.gallery{
+    padding:50px 0;
+}
+.info{
+    text-align:center;
+}
+.x-row .item{
+    float:left; width:31%; margin:1%;
+}
+.x-row .item img{
+    width:100%;
+}
+.contact{
+    background:url(images/contactbg.png); 
+    background-size:cover; 
+    height:700px; 
+    position:relative;
+}
+.contact-overlay{
+    background:rgba(45,57,80,.8); 
+    position:absolute;
+     top:0; 
+     left:0; 
+     right:0; 
+     bottom:0;
+}
+.contact-info{
+    text-align:center; 
+    margin-top:100px; 
+    color:white;
+}
+.contact-form{
+    width:600px; 
+    margin:20px auto; 
+    text-align:center;
+}
+.contact-form input, .contact-form textarea{
+    width:100%; 
+    margin-bottom:15px; 
+    padding:10px;
+}
+.contact-form input[type=submit]{
+    border:1px solid #61c2f7; 
+    background:transparent; 
+    color:white;
+}
+.footer{
+    padding:25px; 
+    background:#eee; 
+    text-align:right;
+}
+.footer a{
+    font-size:36px; 
+    margin:5px; 
+    color:#61c2f7; 
+    text-decoration:none;
+}
+@media(max-width:768px){
+    .icon{width:100%; margin-bottom:20px;} 
+    .x-row .item{width:400px;} 
+    .contact-form{width:400px;}
+}
